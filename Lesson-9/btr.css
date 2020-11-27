@@ -1,0 +1,12 @@
+.block {
+  float: right;
+  margin: 0 5px 0 10px;
+  border-color: white;
+  border-style: none;
+  border-radius: 0;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+/*# sourceMappingURL=btr.css.map */

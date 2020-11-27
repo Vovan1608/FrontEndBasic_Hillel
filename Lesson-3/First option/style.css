@@ -1,0 +1,4 @@
+﻿
+td:first-child:not(.not-paint) {
+    background-color: lightgray;
+}

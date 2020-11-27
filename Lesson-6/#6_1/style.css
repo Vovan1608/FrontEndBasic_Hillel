@@ -1,0 +1,110 @@
+﻿.conteiner-top {
+    width: 330px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.blocks {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+    /* выравнивание по высоте, НО только для одной строки */
+    line-height: 100px;
+}
+
+.a{
+    background-color: aqua;
+}
+
+.b{
+    background-color: brown;
+}
+
+.c{
+    background-color: pink;
+    
+}
+
+.d{
+    background-color: purple;
+}
+
+.e {
+    background-color: chartreuse;
+    width: 210px;
+    height: 210px;
+    float: right;
+}
+
+.f{
+    background-color: blue;
+}
+
+.conteiner-bottom{
+    width: 250px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.left-conteiner{
+    width: 124px;
+    float: left;
+}
+
+.wrapper-left{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid black;
+    float: left;
+}
+
+.box-c{
+    background-color: green;
+}
+
+.box-e{
+    float: right;
+    background-color: green;
+    height: 112px;
+}
+
+.box-j{
+    background-color: brown;
+}
+
+.box-a{
+    background-color: pink;
+}
+
+.right-conteiner{
+    width: 124px;
+    float: right;
+}
+
+.wrapper-right{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid black;
+    float: left;
+}
+
+.box-b{
+    background-color: brown;
+}
+
+.box-i{
+    background-color: pink;
+}

@@ -1,0 +1,20 @@
+=mixin float($direction, $margin-l-r)
+    float: $direction
+    margin: $margin-l-r
+
+
+=mixin border-reset($brdr-clr: white, $brdr-stl: none, $brdr-rdus: 0) 
+    border-color: $brdr-clr
+    border-style: $brdr-stl
+    border-radius: $brdr-rdus
+
+
+=mixin transition($delay, $duration) 
+    transition-delay: $delay
+    transition-duration: $duration
+
+
+.block
+    +include float(right, 0 5px 0 10px)
+    +include border-reset
+    +include transition(2s, 1s)
